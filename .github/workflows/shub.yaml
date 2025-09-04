@@ -12,7 +12,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  IMAGE_NAME: ghcr.io/sportshubtech/kratos
+  IMAGE_NAME: ghcr.io/sportstech/kratos
 
 jobs:
   build:
