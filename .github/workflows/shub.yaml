@@ -44,5 +44,5 @@ jobs:
             --file .docker/Dockerfile-build \
             --tag ${{env.IMAGE_NAME}}:${{github.sha}} \
             --tag ${{env.IMAGE_NAME}}:${{github.ref_name}} \
-            --push
+            --push \
             .
